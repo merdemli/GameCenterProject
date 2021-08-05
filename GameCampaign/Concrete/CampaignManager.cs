@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GameCampaign.Consrete
 {
-    class ICampaigService : ICampaignService
+    class CampaignManager : ICampaignService
     {
         public void Add(Campaign campaign,Game game)
         {
